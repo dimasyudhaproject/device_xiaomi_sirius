@@ -35,6 +35,9 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-01-01
 
