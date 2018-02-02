@@ -32,6 +32,9 @@ TARGET_USE_QTI_BT_STACK := true
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
+# DRM
+TARGET_ENABLE_MEDIADRM_64 := true
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-01-01
 
