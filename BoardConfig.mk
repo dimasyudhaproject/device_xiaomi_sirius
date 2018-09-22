@@ -48,6 +48,10 @@ TARGET_USES_ION := true
 MAX_EGL_CACHE_KEY_SIZE := 12*1024
 MAX_EGL_CACHE_SIZE := 2048*1024
 
+# HIDL
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE)/vendor.prop
