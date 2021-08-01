@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "dimasyudhaproject/device_xiaomi_sirius",
+    "target_path": "device/xiaomi/sirius",
+    "branch": "11"
+  },
+  {
+    "repository": "dimasyudhaproject/vendor_xiaomi_sirius",
+    "target_path": "vendor/xiaomi/sirius",
+    "branch": "11"
+  },
+  {
+    "repository": "dimasyudhaproject/kernel_xiaomi_sirius",
+    "target_path": "kernel/xiaomi/sirius",
+    "branch": "11"
+  },
+  {
+    "repository": "dimasyudhaproject/firmware_xiaomi_sirius",
+    "target_path": "firmware/xiaomi/sirius",
+    "branch": "10"
+  }
+]
