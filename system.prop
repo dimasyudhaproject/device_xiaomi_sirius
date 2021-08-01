@@ -326,4 +326,7 @@ persist.displayfeature.dc_backlight.threshold=320
 #quick charge type detect
 persist.quick.charge.detect=1
 
-#
+# Blur
+persist.sys.sf.disable_blurs=1
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
